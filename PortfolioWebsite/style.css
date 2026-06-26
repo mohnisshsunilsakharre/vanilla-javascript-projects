@@ -1,0 +1,151 @@
+/* General styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #4a90e2, #007bff);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 10px 0 5px;
+  font-size: 2.5rem;
+}
+
+header .highlight {
+  color: #ffd700;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+header nav {
+  margin-top: 15px;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #ffd700;
+}
+
+/* Profile picture */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Projects grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.card a:hover {
+  background: #0056b3;
+}
+
+/* Contact icons */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2rem;
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
