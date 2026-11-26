@@ -83,7 +83,7 @@ To strengthen frontend fundamentals through small practical projects before prog
 
 ## 👨‍💻 Author
 
-**Mohnissh(Naacchht)**
+**Mohnissh**
 
 ---
 *This repository is a learning collection. Features and projects may be expanded as JavaScript skills develop.*
